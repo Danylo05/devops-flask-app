@@ -11,5 +11,8 @@ def about():
     return "About page + python page"
 
 @app.route("/contact")
-def about():
+def contact():
     return "email12348@gmail.com"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
